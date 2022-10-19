@@ -1,0 +1,61 @@
+header{
+    position: fixed;
+    top: 120px;
+    left: 500px;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+header h1{
+    font-size: 20px;
+}
+
+
+header button{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid #000;
+}
+
+header button:hover{
+    background-color: whitesmoke;
+}
+
+header .demaisbotao{
+    background-color: #F4C885;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+header .primeirobotao{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #F4C885;
+    border: none;
+}
+
+
+header .ultimobotao{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #C5811C;
+    border: none;
+}
+
+.backgroundheader{
+    position: fixed;
+    background-color: #F4C885;
+    padding-right: 1920px;
+    padding-bottom: 110px;
+}
+
+.logopng{
+    position: fixed;
+    top: -20px;
+    left: 700px;
+    width: 500px;
+}
